@@ -198,7 +198,7 @@ class Firewall
             return $this;
         }
 
-        $class = "PhpWaf\\Filter\\$filter";
+        $class = "xqus\PhpWaf\\Filter\\$filter";
         $instance = new $class;
 
         foreach ($_GET as $key => $val)
