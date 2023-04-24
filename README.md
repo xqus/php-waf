@@ -1,5 +1,5 @@
 # php-waf
-[![Build Status](https://api.travis-ci.org/riverside/php-waf.svg)](https://travis-ci.org/riverside/php-waf) [![License](https://poser.pugx.org/riverside/php-waf/license)](https://packagist.org/packages/riverside/php-waf)
+[![License](https://poser.pugx.org/riverside/php-waf/license)](https://packagist.org/packages/riverside/php-waf)
 
 PHP Web Application Firewall
 
@@ -15,7 +15,7 @@ Next, add the following require entry to the <code>composer.json</code> file in 
 ```json
 {
     "require" : {
-        "riverside/php-waf" : "*"
+        "xqus/php-waf" : "*"
     }
 }
 ```
