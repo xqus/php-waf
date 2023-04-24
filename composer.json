@@ -1,5 +1,5 @@
 {
-    "name": "riverside/php-waf",
+    "name": "xqus/php-waf",
     "description": "PHP Web Application Firewall",
     "type": "library",
     "version": "1.0.0",
