@@ -8,6 +8,12 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Audun Larsen",
+            "email": "larsen@xqus.com",
+            "homepage": "https://github.com/xqus",
+            "role": "Developer"
+        },
+        {
             "name": "Dimitar Ivanov",
             "email": "info@zinoui.com",
             "homepage": "http://zinoui.com",
