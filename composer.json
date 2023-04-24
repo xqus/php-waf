@@ -3,7 +3,7 @@
     "description": "PHP Web Application Firewall",
     "type": "library",
     "keywords": ["php", "firewall", "waf", "application", "webapp"],
-    "homepage": "https://github.com/riverside/php-waf",
+    "homepage": "https://github.com/xqus/php-waf",
     "license": "MIT",
     "authors": [
         {
