@@ -7,39 +7,30 @@ PHP Web Application Firewall
 - PHP >= 7.0
 
 ### Installation
-If Composer is not installed on your system yet, you may go ahead and install it using this command line:
 ```
-$ curl -sS https://getcomposer.org/installer | php
+composer require xqus/php-waf
 ```
-Next, add the following require entry to the <code>composer.json</code> file in the root of your project.
-```json
-{
-    "require" : {
-        "xqus/php-waf" : "*"
-    }
-}
-```
-Finally, use Composer to install php-waf and its dependencies:
-```
-$ php composer.phar install 
-```
+
 ### How to use
-1. Configure your web server
-    - Apache
-    ```apacheconfig
-    php_value auto_prepend_file "/path/to/waf.php"
-    ```
-    - Nginx
-    ```
-    fastcgi_param PHP_VALUE "auto_prepend_file=/path/to/waf.php";
-    ```
-2. Create an Firewall instance 
+1. Create a PHP script to start the Firewall instance
     - waf.php
     ```php
     <?php
     $waf = new \xqus\PhpWaf\Firewall();
     $waf->run();
     ```
+   
+2. Configure your web server
+    - Apache (.htaccess)
+    ```
+    php_value auto_prepend_file "/path/to/waf.php"
+    ```
+    - Nginx
+    ```
+    fastcgi_param PHP_VALUE "auto_prepend_file=/path/to/waf.php";
+    ```
+   
+
 
 ### Available filters
 | Filter             | Description          |
