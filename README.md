@@ -37,7 +37,7 @@ $ php composer.phar install
     - waf.php
     ```php
     <?php
-    $waf = new \PhpWaf\Firewall();
+    $waf = new \xqus\PhpWaf\Firewall();
     $waf->run();
     ```
 

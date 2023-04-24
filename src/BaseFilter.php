@@ -1,5 +1,5 @@
 <?php
-namespace PhpWaf;
+namespace xqus\PhpWaf;
 
 abstract class BaseFilter
 {

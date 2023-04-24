@@ -1,7 +1,7 @@
 <?php
-namespace PhpWaf\Filter;
+namespace xqus\PhpWaf\Filter;
 
-use PhpWaf\BaseFilter;
+use xqus\PhpWaf\BaseFilter;
 
 class SQL extends BaseFilter
 {
