@@ -18,7 +18,7 @@ abstract class BaseFilter
      */
     public function __construct()
     {
-        $payloads = @file(__DIR__ . '/../payloads/' . $this->payloads_file);
+        $payloads = @file(__DIR__ . '/payloads/' . $this->payloads_file);
         if ($payloads !== false)
         {
             $this->payloads = $payloads;
